@@ -1,0 +1,14 @@
+.container {
+	margin: 4% auto;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	padding-bottom: 250px;
+}
+
+.container h1{
+	font-size: 1.4em;
+}
+
+.container h2{
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	font-size: 1.2em;
+}

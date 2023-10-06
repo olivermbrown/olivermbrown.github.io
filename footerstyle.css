@@ -1,0 +1,17 @@
+footer{
+	background: rgb(13, 13, 51);
+	padding: 40px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	font-size: 1.0em;
+	font-family: Baskerville, Garamond, serif;
+}
+
+.copyright {
+	padding-top: 20px;
+}
