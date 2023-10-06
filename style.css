@@ -3,12 +3,12 @@
 
 .header .jumbotron {
     background-color:transparent !important;
-	background-image: url("fractalwallpaper.jpg");
+	background-image: url("Durham.jpg");
 	
     border-radius: 0 !important;
 	
-	height: 180px;
-	background-position: center;
+	height: 480px;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -45,4 +45,3 @@ font-size: 55px;
    .header .jumbotron h1{
     font-size:20px!important;
   }}
-}
