@@ -1,5 +1,6 @@
 .navbar {
 	background-color: transparent;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .navbar .navbar-nav li a{
@@ -19,6 +20,17 @@
 	margin-right:10px;
 }
 
-.navbar .navbar-toggle {
-	background-color: black !important;
+.navbar .navbar-header{
+	margin-left:10px;
+	margin-right:10px;
 }
+
+/* Style for the active navbar item */
+.navbar-nav .nav-item.active a {
+	font-weight: bold;
+  }
+
+  .navbar.opaque {
+	background-color: white; /* Change to your desired background color */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  }
