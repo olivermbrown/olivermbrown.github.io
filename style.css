@@ -92,3 +92,9 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Change link color for all links */
+.custom-link {
+  color: black; /* Replace "blue" with your desired color */
+  text-decoration: underline; /* If you want none, change to "none" */
+}
