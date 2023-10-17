@@ -84,18 +84,18 @@
 			<!-- Content for the left column - Welcome -->
 			<h2>Welcome</h2>
 			<p>
-				I am a mathematician currently working as a doctoral student at the University of Bristol.
+				I am a mathematician currently working as a doctoral student at the <a href="https://www.bristol.ac.uk/" class="custom-link">University of Bristol</a>.
 				This site is a hub for my work and productions, as well as providing a platform for me to discuss my interests.<br>
 			</br>	
-				My mathematical work currently centres on the application of functional analysis, geometry and topology to problems in quantum mechanics and quantum field theory.
-				Beyond this my mathematical interests span many fields including, but not limited to, quantum information and dynamical systems.<br>
+				My mathematical work currently centres on the application of <a href="https://en.wikipedia.org/wiki/Functional_analysis" class="custom-link">functional analysis</a>, <a href="https://en.wikipedia.org/wiki/Geometry" class="custom-link">geometry</a> and <a href="https://en.wikipedia.org/wiki/Topology" class="custom-link">topology</a> to problems in <a href="https://en.wikipedia.org/wiki/Quantum_mechanics" class="custom-link">quantum mechanics</a> and <a href="https://en.wikipedia.org/wiki/Quantum_field_theory" class="custom-link">quantum field theory</a>.
+				Beyond this my mathematical interests span many fields including, but not limited to, <a href="https://en.wikipedia.org/wiki/Quantum_information" class="custom-link">quantum information</a> and <a href="https://en.wikipedia.org/wiki/Dynamical_system" class="custom-link">dynamical systems</a>.<br>
 			</br>
 				In addition to my academic work, I have undertaken many of my own projects which can be found on this site.
 				Since my time as an undergraduate student I have produced YouTube videos explaining topics in mathematics and physics, as well as discussing life and university and science more generally.
 				These videos have a combined view count of over 20,000.
 				I also have several of my own programming projects, developing new systems to overcome interesting technical challenges.<br>
 			</br>
-				The painting of Durham in the header is by Stephen Ward Art, whose work can be purchased at https://www.stephenward-art.co.uk/.
+				The painting of Durham in the header is by <a href="https://www.stephenward-art.co.uk/" class="custom-link">Stephen Ward Art</a>, and the format of this site is inspired by the website of <a href="https://en.wikipedia.org/wiki/International_Centre_for_Mathematical_Sciences" class="custom-link">ICMS</a> Director <a href="https://www.minhyongkim.net/" class="custom-link">Minhyong Kim</a>.
 				I believe the view over Durham city centre to be one of the most beautiful and inspiring anywhere in the world.<br>
 			</p>
 		</div>
@@ -106,12 +106,12 @@
 			<!-- Content for the right column - Biography -->
 			<h2>Biography</h2>
 			<p>
-				Until 2022, I studied mathematics and physics at St John’s College, Durham.
-				During my degree I studied many broad areas and attained a high level of knowledge in quantum mechanics, analysis, particle physics, general relativity, condensed matter physics and continuum mechanics.
+				Until 2022, I studied mathematics and physics at <a href="https://www.durham.ac.uk/colleges-and-student-experience/colleges/st-johns/" class="custom-link">St John’s College, Durham</a>.
+				During my degree I studied many broad areas and attained a high level of knowledge in <a href="https://en.wikipedia.org/wiki/Quantum_mechanics" class="custom-link">quantum mechanics</a>, <a href="https://en.wikipedia.org/wiki/Mathematical_analysis" class="custom-link">analysis</a>, <a href="https://en.wikipedia.org/wiki/Particle_physics" class="custom-link">particle physics</a>, <a href="https://en.wikipedia.org/wiki/General_relativity" class="custom-link">general relativity</a>, <a href="https://en.wikipedia.org/wiki/Condensed_matter_physics" class="custom-link">condensed matter physics</a> and <a href="https://en.wikipedia.org/wiki/Continuum_mechanics" class="custom-link">continuum mechanics</a>.
 				My master’s dissertation described mathematical models for the mechanics of the violin. I maintain strong connections with my old college.<br>
 			</br>
-				After completing my studies in Durham, I moved to the School of Mathematics in Bristol to work under the supervision of Professor Jonathan Robbins (currently Head of School) and Dr Tomasz Maciazek (currently Vice Chancellor’s Fellow).
-				Our research focuses on the mathematical description of a class of particles called anyons which exist only in two-dimensional systems and their quantum behaviour on networks of nanowires. We have worked in collaboration with researchers at other institutions around the world.
+				After completing my studies in Durham, I moved to the <a href="https://www.bristol.ac.uk/maths/" class="custom-link">School of Mathematics</a> in Bristol to work under the supervision of Professor <a href="https://www.bristol.ac.uk/people/person/Jonathan-Robbins-60101278-f877-4e14-946f-262f3b95d5ae/" class="custom-link">Jonathan Robbins</a> (currently Head of School) and Dr <a href="https://research-information.bris.ac.uk/en/persons/tomasz-maciazek" class="custom-link">Tomasz Maciazek</a> (currently Vice Chancellor’s Fellow).
+				Our research focuses on the mathematical description of a class of particles called <a href="https://en.wikipedia.org/wiki/Anyon" class="custom-link">anyons</a> which exist only in two-dimensional systems and their quantum behaviour on networks of nanowires. We have worked in collaboration with researchers at other institutions around the world.
 				I have also assisted in the teaching of first year and third year modules.<br>
 			</p>
 		</div>
@@ -129,7 +129,7 @@
 	<footer class="container-fluid text-center">
 		<div class="row">
 		<div class="col">
-		<p class="copyright">Copyright: Oliver Brown 2023</p>
+		<p>Copyright &copy; <span id="currentYear"></span> Oliver M. Brown</p>
 		</div>
 		</div>
 	</footer>
@@ -158,6 +158,14 @@
 		// Call the function initially to set the initial state
 		toggleNavbarBackground();
 	  </script>
+
+	<script>
+		// Get the current year
+		var currentYear = new Date().getFullYear();
+
+		// Update the placeholder with the current year
+		document.getElementById("currentYear").textContent = currentYear;
+	</script>
 
 </body>
 </html>
