@@ -14,10 +14,6 @@
 
 .navbar .navbar-brand {
 	color: black !important;
-	text-shadow: -0.25px 0.25px 0 #FFFFFF,
-				  0.25px 0.25px 0 #FFFFFF,
-				  0.25px -0.25px 0 #FFFFFF,
-				  -0.25px -0.25px 0 #FFFFFF;
 	font-size: 2.0em !important;
 	font-family: Baskerville, Garamond, serif;
 	margin-left:10px;
